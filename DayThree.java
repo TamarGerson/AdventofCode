@@ -327,7 +327,7 @@ public class DayThree {
      * @param filePath file to read from
      * @return sum of valid numbers
      */
-    private static int engineSum(String filePath) {
+    public static int engineSum(String filePath) {
         int sum = 0 ;
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String currentLine;
